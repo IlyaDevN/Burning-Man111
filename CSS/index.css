@@ -1,0 +1,135 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    
+    margin: 0;
+    font-family:"Anton", sans-serif;
+    color: white;
+}
+.header{
+    background: url("../IMG/header-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+    color: white;
+}
+.header > .container{
+    width: 1170px;
+    margin: 0 auto;
+}
+.header{
+    padding-top: 57px;
+    /* margin-bottom: 216px; */
+}
+.nav{
+    display: flex;
+    align-items: center;
+    /* border: 1px solid yellow; */
+    
+}
+.menu{
+    display: flex;
+}
+.menu li{
+    padding-right: 40px;
+}
+.menu li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+.tel{
+    font-size: 17px;
+    color: white;
+    text-decoration: none;
+    margin-left: auto;
+    letter-spacing: 0.1em;
+}
+.logo{
+    margin-right: 69px;
+}
+.offer{
+    margin-top: 216px;
+    height: 257px;
+    /* border: 1px solid #f5f10c; */
+}
+p{
+    margin: 0;
+}
+.of_first{
+    font-size: 30px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding-left: 2px;
+}
+.of_main{
+    font-size: 100px;
+    text-transform: uppercase;
+}
+.of_last{
+    font-size: 17px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    width: 192px;
+    text-align: center;
+    padding: 17px;
+    border: 1px solid #FFF;
+}
+.main > .container{
+    width: 1160px;
+    margin: 0 auto;
+    margin-top: 125px;
+    color: black;
+}
+h1{
+    margin: 0;
+    padding: 0;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+.description{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 74px;
+}
+.rebuilding{
+    width: 564px;
+}
+.drives{
+    width: 564px;
+}
+.rebuilding > p, .drives > p{
+    text-align: justify;
+    font-family: "Open Sans";
+    font-size: 16px;
+    margin: 0;
+    padding-top: 30px;
+}
+h3{
+    margin: 0;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.images{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 84px;
+}
+.footer > .container{
+    display: flex;
+    width: 1160px;
+    margin: auto;
+    margin-top: 114px;
+    color: black;
+}
+.footer > .container > p{
+    margin-right: 80px;
+    font-family: "Open Sans";
+}
